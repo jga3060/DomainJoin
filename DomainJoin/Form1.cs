@@ -29,12 +29,12 @@ namespace DomainJoin
 
         private void btnStaff_Click(object sender, EventArgs e)
         {
-            functions.SetDomainMembership("SARASOTA\vitiltech", "2018Temp!", "sarasota.k12.fl.us");
+            functions.SetDomainMembership(**insert domain\user** , **password**, **domain**);
         }
 
         private void btnStudent_Click(object sender, EventArgs e)
         {
-            functions.SetDomainMembership("SARASOTA\vitiltech", "2018Temp!", "student.sarasota.k12.fl.us");
+            functions.SetDomainMembership(**insert domain\user** , **password**, **domain**);
         }
     }
 }
